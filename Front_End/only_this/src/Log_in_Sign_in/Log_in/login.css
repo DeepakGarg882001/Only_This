@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+}
+#new_account{
+    text-decoration: none;
+    color:rgb(7, 235, 243);
+}
+
+.main_1{
+    width: 100vw;
+    height: 100vh;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_2{
+    background: linear-gradient(to top, #00ccff 0%, #00ffff 100%) ;
+    width: 50vw;
+    height: 70vh;
+    border: 2px solid #0abde3;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 4px 13px 20px  darkslategrey;
+}
+
+.name{
+    margin-top: 10vh;
+    color: mediumblue;
+    font-size: 2.5rem;
+    margin-bottom: 7px;
+    text-shadow: 1px 3px 8px #0415f8;
+    
+}
+.id_password{
+    background-color: transparent;
+    border:none;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 18px;
+    text-shadow: 1px 4px 12px rgb(255, 255, 255);
+    font-family: 'Carter One', cursive;
+    color:#fdfcf9;
+    
+    
+}
+.login{
+    width: 8vw;
+    height: 4.7vh;
+    background-color: rgb(29, 14, 241);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family:'Open Sans', sans-serif;
+    font-weight:bold;
+    margin-top: 38px;
+    margin-bottom: 15px;
+    text-shadow: 1px 3px 7px #000000;
+    box-shadow: 0px 6px 14px rgb(176, 58, 192);
+}
+
+.new_account{
+    color:whitesmoke;
+    font-size: 1.5rem;
+    text-shadow: 1px 3px 5px #000000;
+    margin-top: 18px;
+    
+}
+
+@media screen and (max-height:460px) {
+    .main_2{
+        margin-top: 35vh;
+        height: 98vh;
+        width: 60vw;
+    }
+.login{
+    height: 9vh;
+    width: 14vw;
+}
+
+}
+
+
+@media screen and (max-width:240px) {
+    
+.main_2{
+        width: 78vw;
+        height: 50vh;
+}
+.name{
+        margin-top:8vh;
+        font-size: 0.8rem;
+        margin-bottom: 7px;
+    }
+.id_password{
+        font-size: 0.6rem;
+        margin-top: 15px;
+}
+.login{
+        width:23vw;
+        height: 4vh;
+        padding: 5px;
+        font-size: 0.66rem;
+        margin-top: 35px;
+        margin-bottom: 13px;
+}
+.new_account{
+        font-size: 0.6rem;
+        margin-top: 15px;
+}
+}
+
+
+
+@media screen and (max-width:350px)and (min-width:241px) and (min-height:460px){
+    
+.main_2{
+        width: 78vw;
+        height: 60vh;
+}
+.name{
+        margin-top:8vh;
+        font-size: 1.88rem;
+        margin-bottom: 7px;   
+}
+.id_password{
+        font-size: 0.8rem;
+        margin-top: 15px;
+}
+.login{
+        width:23vw;
+        height: 4.4vh;
+        padding: 5px;
+        font-size: 0.8rem;
+        margin-top: 35px;
+        margin-bottom: 13px;
+}
+.new_account{
+       font-size: 0.9rem;
+       margin-top: 15px;
+}
+}
+
+
+
+@media screen and (max-width:510px) and (min-width:351px)and (min-height:460px){
+    
+.main_2{
+        width: 68vw;
+        height: 60vh;
+}
+.name{
+        margin-top:8vh;
+        font-size: 2rem;
+        margin-bottom: 7px;
+}
+.id_password{
+        font-size: 0.8rem;
+        margin-top: 15px;
+}
+.login{
+        width:23vw;
+        height: 4.7vh;
+        padding: 5px;
+        font-size: 0.8rem;
+        margin-top: 35px;
+        margin-bottom: 13px;
+}
+.new_account{
+       font-size: 1.1rem;
+       margin-top: 15px;
+}
+}
+
+
+ @media  screen and (max-width:625px) and (min-width:511px)and (min-height:460px){
+    
+.main_2{
+    width: 62vw;
+    height: 60vh;
+}
+.name{
+    margin-top: 8vh;
+    font-size: 2.2rem;
+    margin-bottom: 7px;
+}
+.id_password{
+    font-size: 0.8rem;
+    margin-top: 15px;
+   }
+.login{
+    width:20.5vw;
+    height: 4.7vh;
+    padding: 5px;
+    font-size: 1rem;
+    margin-top: 35px;
+    margin-bottom: 13px;
+ }
+.new_account{
+   font-size: 1.3rem;
+   margin-top: 15px;
+}
+}
+
+
+
+
+
+@media  screen and (max-width:770px) and (min-width:626px) and (min-height:460px){
+    
+    .main_2{
+       width: 62vw;
+        height: 68vh;
+      }
+    .login{
+        width: 17vw;
+        height: 4.9vh;
+    }  
+    }
+
+
+  
+
+@media  screen and (max-width:1350px) and (min-width:771px) and (min-height:460px){
+    
+    .main_2{
+        width: 55vw;
+        height: 68vh;
+      }
+    .login{
+        width: 11vw;
+        height: 4.9vh;
+    }  
+    }
+
+    
+    
