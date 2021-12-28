@@ -7,7 +7,7 @@ function Types_of_views() {
       <div className="main_1">
         <div className="heading">
           <h2 className="welcome">
-            {" "}
+          
             Hi , Garg <br></br> Welcome to ****
           </h2>
         </div>

@@ -1,8 +1,7 @@
 import React from "react";
 import "./login.css";
-import { Route, Routes } from "react-router-dom";
 import {Link} from "react-router-dom";
-import Types_of_views from "../../Types_of_Views/Types_of_views";
+import  "../../Types_of_Views/Types_of_views";
 function Log_in() {
   return (
     <>
@@ -35,7 +34,7 @@ function Log_in() {
               ></input>
             </form>
           </div>
-          <Link to="/Log_in_Successfully">
+          <Link to="/">
             <button className="login"> Login </button>
           </Link>
           <Link to="/New_Account">
@@ -46,10 +45,7 @@ function Log_in() {
       <br></br>
       <br></br>
       <br></br>
-      <Routes>
-        <Route exact path="/Log_in_Successfully" component={Types_of_views}></Route>
-        <Route exact path="/New_Account" ></Route>
-    </Routes>
+      
     </>
 
   );
