@@ -1,7 +1,7 @@
 import React from "react";
 import "./login.css";
 import {Link} from "react-router-dom";
-import  "../../Types_of_Views/Types_of_views";
+
 function Log_in() {
   return (
     <>
@@ -34,7 +34,7 @@ function Log_in() {
               ></input>
             </form>
           </div>
-          <Link to="/">
+          <Link to="/Log_in">
             <button className="login"> Login </button>
           </Link>
           <Link to="/New_Account">
