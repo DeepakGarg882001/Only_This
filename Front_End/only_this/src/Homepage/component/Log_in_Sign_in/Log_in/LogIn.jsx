@@ -1,10 +1,17 @@
 import React from "react";
 import "./login.css";
 import {Link} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import Types_of_views from "../../Types_of_Views/TypesofViews";
 
-function Log_in() {
+
+const LogIn= () => {
   return (
     <>
+    <Routes>
+        <Route exact path="/login" component={Types_of_views}></Route>
+        <Route exact path="/createAccount" ></Route>
+    </Routes>
     
       <div className="main_1">
         <div className="main_2">
@@ -34,10 +41,10 @@ function Log_in() {
               ></input>
             </form>
           </div>
-          <Link to="/Log_in">
+          <Link to="/login">
             <button className="login"> Login </button>
           </Link>
-          <Link to="/New_Account">
+          <Link to="/createAccount">
             <h5 className="new_account">Create a New Account here...</h5>
           </Link>
         </div>
@@ -51,4 +58,4 @@ function Log_in() {
   );
 }
 
-export default Log_in;
+export default LogIn;

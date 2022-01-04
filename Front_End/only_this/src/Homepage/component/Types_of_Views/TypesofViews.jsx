@@ -1,7 +1,7 @@
 import React from "react";
-import "./Types_of_views.css";
+import "./TypesofViews.css";
 
-function Types_of_views() {
+const TypesofViews = () => {
   return (
     <>
       <div className="main_1">
@@ -31,4 +31,4 @@ function Types_of_views() {
   );
 }
 
-export default Types_of_views;
+export default TypesofViews;
